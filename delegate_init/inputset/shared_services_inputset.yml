@@ -20,6 +20,9 @@ inputSet:
             - name: enable_terraform
               type: String
               value: "true"
+            - name: TF_VERSION
+              type: String
+              value: "1.3.5"
             - name: enable_gcloud
               type: String
               value: "false"
